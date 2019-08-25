@@ -37,7 +37,7 @@ void tree0 ()
 
   //заполняем события рандомными числами в цикле
   Int_t nenevt = 10000;
-  for (Int_t iev=0; iev < nevent; iev++)
+  for (Int_t iev=0; iev < nenevt; iev++)
   {
     if (iev%1000==0) cout<<"Processing event "<<iev<<"..."<<endl;
 
