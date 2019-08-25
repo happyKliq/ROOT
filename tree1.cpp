@@ -46,7 +46,7 @@ void tree0 ()
      e -> a.e = ea;
      e -> b.e = eb;
      e -> a.t = gRandom -> Rndm();
-     e -> b.t = ev -> a.t + gRandom -> Gaus (0.,.1);
+     e -> b.t = eb -> a.t + gRandom -> Gaus (0.,.1);
      tree -> Fill(); //заполняем дерево текущими событиями
   }
 
